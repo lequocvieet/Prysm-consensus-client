@@ -1,0 +1,14 @@
+{
+    "name": "Go",
+    "image": "go1.22:latest",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        "golang.Go"
+    ],
+    "forwardPorts": [
+        8080
+    ],
+    "postCreateCommand": "go version"
+}
